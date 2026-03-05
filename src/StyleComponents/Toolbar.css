@@ -1,0 +1,82 @@
+/* src/components/Toolbar.css */
+.toolbar {
+  padding: 12px;
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.toolbar-group {
+  display: flex;
+  gap: 6px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+/* Цветовые варианты */
+.btn--slide { background: #3b82f6; color: white; }
+.btn--slide:hover { background: #2563eb; }
+
+.btn--slide-del { background: #ef4444; color: white; }
+.btn--slide-del:hover { background: #dc2626; }
+
+.btn--text { background: #10b981; color: white; }
+.btn--text:hover { background: #059669; }
+
+.btn--image { background: #8b5cf6; color: white; }
+.btn--image:hover { background: #7c3aed; }
+
+.btn--obj-del { background: #f97316; color: white; }
+.btn--obj-del:hover { background: #ea580c; }
+
+.btn--resize { background: #6b7280; color: white; }
+.btn--resize:hover { background: #4b5563; }
+
+/* Инпуты */
+.toolbar-input {
+  padding: 4px 6px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 13px;
+  width: 60px;
+}
+
+.toolbar-color-picker {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.toolbar-label {
+  font-size: 13px;
+  color: #6b7280;
+}

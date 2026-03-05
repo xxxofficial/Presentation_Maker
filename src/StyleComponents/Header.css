@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 0;
+  background-color: #f5f7fa;
+  border-bottom: 1px solid #e0e5eb;
+}
+
+.name {
+  margin-bottom: 8px;
+}
+
+.name h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2d3748;
+  margin: 0;
+}
+
+.header-input {
+  width: 300px;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.header-input:focus {
+  border-color: #3182ce;
+  box-shadow: 0 0 0 2px rgba(49, 130, 206, 0.2);
+}
